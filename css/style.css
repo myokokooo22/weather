@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-info{
+    background-color: #f4f4f4;
+    padding: 10px 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.weather-temp{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: orangered;
+}
+
+.weather-temp span{
+    font-size: 1.5rem;
+}
+
+.weather-desc{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.wind-speed{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.geolocation{
+    text-align: center;
+}
